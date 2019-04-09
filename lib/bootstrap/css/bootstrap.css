@@ -5436,7 +5436,6 @@ button.close {
 
 .modal-header {
   display: -ms-flexbox;
-  display: flex;
   -ms-flex-align: start;
   align-items: flex-start;
   -ms-flex-pack: justify;
