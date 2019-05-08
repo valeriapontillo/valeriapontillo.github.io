@@ -114,6 +114,10 @@ a:hover {
   display: table;
 }
 
+.works {
+  float:left;
+}
+
 
 .table-cell {
   display: table-cell;
