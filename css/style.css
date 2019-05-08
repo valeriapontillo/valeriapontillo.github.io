@@ -114,6 +114,7 @@ a:hover {
   display: table;
 }
 
+
 .table-cell {
   display: table-cell;
   vertical-align: middle;
@@ -1053,6 +1054,15 @@ a:hover {
   color: #fff;
 }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+table {
+  margin-left: 30px;
+}
+
 /*======================================
 //--//-->   CONTACT
 ======================================*/
@@ -1252,6 +1262,11 @@ footer .credits a {
     }
     .belowdiv {
       font-size: 10px;
+    }
+
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
     }
     .opacity-div2 {
       background-color: rgba(0, 0, 0, 0.705);
