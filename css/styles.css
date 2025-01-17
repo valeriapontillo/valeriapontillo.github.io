@@ -10949,10 +10949,16 @@ p.lead {
     display: block;
   }
 }
-.social-icons .social-icon {
-  display: inline-flex;
-  align-items: center;
+
+.social-icons {
+  display: flex; /* Allinea le icone in linea */
+  align-items: center; /* Allinea verticalmente al centro */
+}
+
+.social-icon {
+  display: inline-flex; /* Assicura che ogni link mantenga il proprio contenuto allineato */
   justify-content: center;
+  align-items: center;
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
@@ -10961,6 +10967,13 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+
+.social-icon i {
+  font-size: 24px; /* Assicura la stessa dimensione per tutte le icone */
+  line-height: 1; /* Evita disallineamenti dovuti al contenitore */
+  vertical-align: middle; /* Allinea verticalmente le icone */
+}
+
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
