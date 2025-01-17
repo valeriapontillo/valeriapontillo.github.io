@@ -1,0 +1,21 @@
+
+# Files
+*.blg
+title.pdf
+article.pdf
+*.synctex.gz
+*.log
+*.out
+*.bbl
+*.aux
+*.spl
+*.fls
+*.fdb_latexmk
+.DS_Store
+article_old.tex
+article_old.pdf
+# Folders
+.vscode/
+_out
+letter.pdf
+script.py
